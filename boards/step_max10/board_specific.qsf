@@ -19,27 +19,23 @@ set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
 
-
-set_location_assignment PIN_G21  -to CLOCK_50
-#set_location_assignment PIN_B12  -to CLOCK_50_2
-
 set_location_assignment PIN_J14   -to BTN[3]
 set_location_assignment PIN_J11   -to BTN[2]
 set_location_assignment PIN_K14   -to BTN[1]
 set_location_assignment PIN_J9    -to BTN[0]
 
-set_location_assignment PIN_E14   -to CLED1[2] #colored LED 1
+set_location_assignment PIN_E14   -to CLED1[2]
 set_location_assignment PIN_E15   -to CLED1[1]
 set_location_assignment PIN_G15   -to CLED1[0]
-set_location_assignment PIN_D12   -to CLED2[2] #colored LED 2
+set_location_assignment PIN_D12   -to CLED2[2]
 set_location_assignment PIN_C14   -to CLED2[1]
 set_location_assignment PIN_C15   -to CLED2[0]
 
-set_location_assignment PIN_N15   -to WAT_LED[0] #'water' led
+set_location_assignment PIN_N15   -to WAT_LED[0]
 set_location_assignment PIN_N14   -to WAT_LED[1]
 set_location_assignment PIN_M14   -to WAT_LED[2]
 set_location_assignment PIN_M12   -to WAT_LED[3]
-set_location_assignment PIN_K12   -to WAT_LED[5] #copied from github, I know it looks wierd
+set_location_assignment PIN_K12   -to WAT_LED[5]
 set_location_assignment PIN_L15   -to WAT_LED[4]
 set_location_assignment PIN_L11   -to WAT_LED[6]
 set_location_assignment PIN_K11   -to WAT_LED[7]
